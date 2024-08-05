@@ -3,7 +3,7 @@ import FilterMenu from "@/components/(Job Page)/FilterMenu";
 import JobCard from "@/components/(Job Page)/JobCard";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import NotFound from "@/public/NotFound.svg";
+import NotFound from "@/public/notFound.svg";
 import { useDispatch, useSelector } from "react-redux";
 import { JobAction } from "@/redux/JobAction";
 
